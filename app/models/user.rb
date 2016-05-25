@@ -1,3 +1,3 @@
-class User < ApplicationRecord::Base
+class User < ActiveRecord::Base
 has_many :microposts
 end

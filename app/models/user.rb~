@@ -1,2 +1,3 @@
-class User < ApplicationRecord
+class User < Active::Base
+has_many :microposts
 end
